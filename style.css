@@ -99,3 +99,26 @@ p {
   margin-left: 4px;
   margin-bottom: 12px;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 55px;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .index-work {
+    text-align: center;
+  }
+  .home-content-header {
+    text-align: center;
+    font-size: 40px;
+  }
+  .all-link {
+    padding: 20px 80px;
+  }
+}
